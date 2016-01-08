@@ -15,3 +15,4 @@ for letter in "Python":
 
 for i in range(1,10):
 	print i; #Prints numbers in range of (1,10)
+	if(i == 8): break # Buut breaks at 8th iteration.
