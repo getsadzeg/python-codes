@@ -6,3 +6,7 @@ print greeting[:6] + "John Reese"; # Hello John Reese
 contains = 'H' in person;
 notcontains = 'R' in person;
 print contains, notcontains; # True, False
+print len(person); # Prints length : 12
+print person.isalpha(), "this".isalpha(); #False True
+print person.islower(), "yo".islower(); # False True
+print person.lower(); # harold finch
